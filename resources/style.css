@@ -67,6 +67,11 @@ button {
     cursor: pointer;
 }
 
+button:active {
+    border: none;
+    outline: 1px solid #282828;
+}
+
 #scoreboard {
     margin: 10px;
     text-align: center;
